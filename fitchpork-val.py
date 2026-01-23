@@ -22,7 +22,7 @@ import os
 job_ID = os.getenv("SLURM_JOB_ID")
 
 # def data dir
-repo_dir = '/rds/homes/o/oxs235/daviesgr-pcann/repos_data/ojscutt/fitchpork/'
+repo_dir = '/rds/homes/o/oxs235/daviesgr-pcann/repos_data/ojscutt/fitchpork-train/'
 
 data_dir = repo_dir + 'data/'
 

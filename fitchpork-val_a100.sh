@@ -5,7 +5,7 @@
 #SBATCH --account=daviesgr-pcann
 #SBATCH --time 20:00:00
 #SBATCH --gres=gpu:a100:1
-#SBATCH --output=/rds/projects/d/daviesgr-pcann/repos_data/ojscutt/fitchpork/slurm/slurm-%A.out
+#SBATCH --output=/rds/projects/d/daviesgr-pcann/repos_data/ojscutt/fitchpork-train/slurm/slurm-%A.out
 #SBATCH --mail-type=END,FAIL,TIME_LIMIT_90
 
 set -e
